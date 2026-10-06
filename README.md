@@ -1,7 +1,7 @@
 # epaper_display_firmware
 ***
 
-Firmware for the [ESP32-S3-ePaper-13.3E6](https://docs.waveshare.com/ESP32-S3-ePaper-13.3E6). Application provides two functions, One to upload a dithered image over a TCP connection to a image buffer and two receive commands to display or draw to the that image buffer.
+Firmware for the [ESP32-S3-ePaper-13.3E6](https://docs.waveshare.com/ESP32-S3-ePaper-13.3E6). Application provides two functions, One to upload a dithered image over a TCP connection to a image buffer.The second is to receive commands that display or draw to the that image buffer.
 
 The tools to dither/upload and send commands can be found in the [epaper_display_tools](https://github.com/lebrown-lb/epaper_display_tools) repository.
 
